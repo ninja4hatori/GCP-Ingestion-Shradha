@@ -1,0 +1,8 @@
+StructType schema = new StructType()
+        .add("id", "string")
+        .add("first_name", "string")
+        .add("last_name", "string");
+
+    Dataset<Row> df = spark.read().format("bigquery").option("credentials", base64).option("table", fullTableName).load();
+   System.out.println(df.count());
+  // df.write().format("csv").save(sPath);
