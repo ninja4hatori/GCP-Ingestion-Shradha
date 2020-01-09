@@ -4,12 +4,12 @@ import java.lang.String;
 public class JobRunner {
     public static void main(String[] args) {
         System.out.println("Initializing Variables...");
-        String jsonPath = "C:\\Users\\Rahul\\Desktop\\GCP\\Key\\My First Project-5bea8475ed1c.json";
+        String jsonPath = args[0];
         String datasetName = "SampleAvro";
         String tableName="Sample";
         String location = "asia-south1";
-        String fPath = "C:\\Users\\Rahul\\IdeaProjects\\GCP-Ingestion\\src\\main\\resources\\SampleFiles\\userdata1.avro";
-        String sPath = "C:\\Users\\Rahul\\IdeaProjects\\GCP-Ingestion\\src\\main\\resources\\OutputFiles\\";
+        String fPath = args[1];
+        String sPath = args[2];
         System.out.println("Parameters set:");
         System.out.println("Table: " + datasetName + "." + tableName);
         System.out.println("File: " + fPath);

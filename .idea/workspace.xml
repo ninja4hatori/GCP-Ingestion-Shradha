@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Ingestion:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ecf3a968-9f2f-4ffe-9b29-d2bdcf6ef465" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Ingestion_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JobRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JobRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JobRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JobRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoadData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoadData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OutputFiles/.part-00000-480c683c-cce6-44a2-96d1-5921981e89b9-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OutputFiles/part-00000-480c683c-cce6-44a2-96d1-5921981e89b9-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Ingestion.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OutputFiles/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OutputFiles/.part-00000-5eb65866-33da-4b64-8b38-4f4e402c0c75-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OutputFiles/part-00000-5eb65866-33da-4b64-8b38-4f4e402c0c75-c000.csv" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoadData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+            <state relative-caret-position="22">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JobRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="187">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,12 +65,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ingestion.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -91,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/main/java/QueryData.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/misc.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/JobRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoadData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobRunner.java" />
       </list>
     </option>
   </component>
@@ -116,6 +122,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,51 +133,42 @@
             <path>
               <item name="GCP-Ingestion" type="b2602c69:ProjectViewProjectNode" />
               <item name="GCP-Ingestion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GCP-Ingestion" type="b2602c69:ProjectViewProjectNode" />
               <item name="GCP-Ingestion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GCP-Ingestion" type="b2602c69:ProjectViewProjectNode" />
               <item name="GCP-Ingestion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GCP-Ingestion" type="b2602c69:ProjectViewProjectNode" />
               <item name="GCP-Ingestion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="SampleFiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GCP-Ingestion" type="b2602c69:ProjectViewProjectNode" />
               <item name="GCP-Ingestion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="OutputFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GCP-Ingestion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git-2.24.1.2-64-bit.exe" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -192,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Maven.test [clean,install]">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JobRunner" />
       <module name="Ingestion" />
@@ -256,14 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578348157235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Java Code to load Avro files to BigQuery GCP + querying data and saving to local file">
+      <created>1578519502041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578519502041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26626325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,13 +277,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68532526" visible="true" weight="0.46481177" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6845688" visible="true" weight="0.45008183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992224" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.31467474" side_tool="true" visible="true" weight="0.46481177" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.31543118" side_tool="true" visible="true" weight="0.45008183" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992224" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.45878693" weight="0.6918919" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -295,7 +300,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Code to load Avro files to BigQuery GCP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Code to load Avro files to BigQuery GCP" />
+    <MESSAGE value="Java Code to load Avro files to BigQuery GCP + querying data and saving to local file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Code to load Avro files to BigQuery GCP + querying data and saving to local file" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -345,27 +351,17 @@
     <entry file="file://$USER_HOME$/Downloads/Runner.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ingestion.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/extract.avro/.part-00000-7ed23f98-65a8-4972-ad37-90b1b92d7b92-c000.snappy.parquet.crc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/extract.csv/part-00000-70ecc88d-679a-4b27-b552-b240d6abac01-c000.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/.part-00000-2b1095a2-9ee8-43d4-809d-d3ce4b9a8757-c000.csv.crc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/part-00000-2b1095a2-9ee8-43d4-809d-d3ce4b9a8757-c000.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/extract.avro/.part-00000-7ed23f98-65a8-4972-ad37-90b1b92d7b92-c000.snappy.parquet.crc" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/extract.csv/part-00000-70ecc88d-679a-4b27-b552-b240d6abac01-c000.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/.part-00000-2b1095a2-9ee8-43d4-809d-d3ce4b9a8757-c000.csv.crc" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/part-00000-2b1095a2-9ee8-43d4-809d-d3ce4b9a8757-c000.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/part-00000-5eb65866-33da-4b64-8b38-4f4e402c0c75-c000.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/part-00000-480c683c-cce6-44a2-96d1-5921981e89b9-c000.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/misc.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -374,25 +370,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JobRunner.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/JobRunner.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ingestion.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LoadData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/OutputFiles/part-00000-5eb65866-33da-4b64-8b38-4f4e402c0c75-c000.csv">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33712" />
+        <state relative-caret-position="204">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LoadData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -404,11 +421,18 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>Ingestion:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -452,7 +476,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test</last-edited>
+          <last-edited>Ingestion</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -464,6 +488,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.carrotsearch:hppc:0.7.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
