@@ -96,6 +96,7 @@ public static void saveToLocal(String datasetName, String tableName, String sPat
 
     //Deleting the temp table after saving the extract file.
     bigquery.delete(TableId.of(datasetName, destTableName));
+    spark.stop();
 }
 }
 
